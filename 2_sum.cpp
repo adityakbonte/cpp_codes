@@ -4,7 +4,7 @@ using namespace std;
 vector<int>Twosum(vector<int>v,int target){
     vector<int>temp;
     map<int,int>m;
-    m[0]++;
+    // m[0]++;
     int size = v.size();
     for(int i=0;i<size;i++){
         if(m.find(target-v[i])!=m.end()){

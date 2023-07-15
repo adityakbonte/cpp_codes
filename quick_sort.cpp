@@ -17,6 +17,7 @@ int partition(int arr[], int low, int high)
 		}
 	}
 	swap(arr[i + 1], arr[high]);
+	cout<<"hello"<<i+1<<endl;
 	return (i + 1);
 }
 

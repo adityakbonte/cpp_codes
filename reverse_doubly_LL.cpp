@@ -22,7 +22,7 @@ node* reverse(node* &head){
     ptr1->prev = ptr2;
 
     while(ptr2!=NULL){
-        ptr2->prev = ptr2->next;
+        ptr2->prev = ptr2->next; 
         ptr2->next = ptr1;
         ptr1 = ptr2;
         ptr2 = ptr2->prev;
